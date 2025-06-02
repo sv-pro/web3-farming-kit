@@ -1,0 +1,9 @@
+[tool.poetry]
+package-mode = false
+name = "web3-farming-kit"
+version = "0.1.0"
+description = "Toolkit for retrodrop farming"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"

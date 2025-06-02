@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: todo-notifier
+    env: python
+    plan: free
+    buildCommand: "poetry install"
+    startCommand: "poetry run python bot/service.py"
+    autoDeploy: true

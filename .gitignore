@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+poetry.lock
+
+# dotenv
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Test cache
+pytest_cache/
+.tox/
+coverage.xml
+htmlcov/
+.cache/
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Obsidian-specific (if synced vaults)
+.obsidian/
+
+# Mongo dump / backup
+dump/
